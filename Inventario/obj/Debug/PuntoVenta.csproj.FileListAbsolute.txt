@@ -1,0 +1,56 @@
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\bin\Debug\PuntoVenta.exe.config
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\bin\Debug\PuntoVenta.exe
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\bin\Debug\PuntoVenta.pdb
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.csprojResolveAssemblyReference.cache
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.frmSplash.resources
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.Properties.Resources.resources
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.csproj.GenerateResource.Cache
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.exe
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.pdb
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.frmLogin.resources
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\bin\Debug\PuntoVenta.exe.config
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.exe
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.pdb
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\bin\Debug\PuntoVenta.exe
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\bin\Debug\PuntoVenta.pdb
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.csprojResolveAssemblyReference.cache
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.frmLogin.resources
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.frmSplash.resources
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.Properties.Resources.resources
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.csproj.GenerateResource.Cache
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\bin\Debug\CommonLibrary.dll
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\bin\Debug\CommonLibrary.pdb
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.frmPrincipal.resources
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlVentas.resources
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlClientes.resources
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlProductos.resources
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\bin\Debug\CommonLibrary.pdb
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.frmPrincipal.resources
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlClientes.resources
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlProductos.resources
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlVentas.resources
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlInventario.resources
+C:\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlConfiguracion.resources
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlConfiguracion.resources
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlInventario.resources
+F:\Josue\Doctos Personales\Proyectos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlCajero.resources
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\bin\Debug\PuntoVenta.exe.config
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\bin\Debug\PuntoVenta.exe
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\bin\Debug\PuntoVenta.pdb
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\bin\Debug\CommonLibrary.pdb
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.csproj.AssemblyReference.cache
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.frmLogin.resources
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.frmPrincipal.resources
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.frmSplash.resources
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.Properties.Resources.resources
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlCajero.resources
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlClientes.resources
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlConfiguracion.resources
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlInventario.resources
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlProductos.resources
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.usrctrlVentas.resources
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.csproj.GenerateResource.cache
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.csproj.CoreCompileInputs.cache
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.csproj.CopyComplete
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.exe
+C:\Josue\Respaldo Josue\Josue\Desarrollos\PuntoVenta\PuntoVenta\obj\Debug\PuntoVenta.pdb

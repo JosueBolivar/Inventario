@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C5D1C57-CF1B-4240-9259-1C32265216FC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inventario</RootNamespace>
+    <AssemblyName>Inventario</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommonLibrary">
+      <HintPath>C:\POS\CommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoDatos\BaseDatos.cs" />
+    <Compile Include="ControlesUsuario\usrctrlProducto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\usrctrlProducto.Designer.cs">
+      <DependentUpon>usrctrlProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\usrctrlSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\usrctrlSettings.Designer.cs">
+      <DependentUpon>usrctrlSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmUsusarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmUsusarios.Designer.cs">
+      <DependentUpon>frmUsusarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones.cs" />
+    <Compile Include="Negocio\Cajero.cs" />
+    <Compile Include="Negocio\Usuario.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="usrctrlCajero.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrctrlCajero.Designer.cs">
+      <DependentUpon>usrctrlCajero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\usrctrlCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\usrctrlCliente.Designer.cs">
+      <DependentUpon>usrctrlCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usrctrlClientes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrctrlClientes.Designer.cs">
+      <DependentUpon>usrctrlClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usrctrlConfiguracion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrctrlConfiguracion.Designer.cs">
+      <DependentUpon>usrctrlConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlesUsuario\usrctrlDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlesUsuario\usrctrlDashboard.Designer.cs">
+      <DependentUpon>usrctrlDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usrctrlInventario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrctrlInventario.Designer.cs">
+      <DependentUpon>usrctrlInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usrctrlProductos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrctrlProductos.Designer.cs">
+      <DependentUpon>usrctrlProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usrctrlVentas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usrctrlVentas.Designer.cs">
+      <DependentUpon>usrctrlVentas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ControlesUsuario\usrctrlCliente.en-US.resx">
+      <DependentUpon>usrctrlCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\usrctrlProducto.en-US.resx">
+      <DependentUpon>usrctrlProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\usrctrlProducto.resx">
+      <DependentUpon>usrctrlProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\usrctrlSettings.en-US.resx">
+      <DependentUpon>usrctrlSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\usrctrlSettings.resx">
+      <DependentUpon>usrctrlSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmUsusarios.resx">
+      <DependentUpon>frmUsusarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDashboard.en-US.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usrctrlCajero.resx">
+      <DependentUpon>usrctrlCajero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\usrctrlCliente.resx">
+      <DependentUpon>usrctrlCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usrctrlClientes.resx">
+      <DependentUpon>usrctrlClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usrctrlConfiguracion.resx">
+      <DependentUpon>usrctrlConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlesUsuario\usrctrlDashboard.resx">
+      <DependentUpon>usrctrlDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usrctrlInventario.resx">
+      <DependentUpon>usrctrlInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usrctrlProductos.resx">
+      <DependentUpon>usrctrlProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usrctrlVentas.resx">
+      <DependentUpon>usrctrlVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linea-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system-lock-screen-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog-password-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoAzul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linea-Y.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application-error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linea-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linea-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linea-6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linea-7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usu_admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usu_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InventorySystem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_page_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown_32px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
